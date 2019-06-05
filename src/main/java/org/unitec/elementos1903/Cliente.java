@@ -21,6 +21,11 @@ public class Cliente {
         this.nombre = nombre;
         this.email = email;
     }
+
+    @Override
+    public String toString() {
+        return "Cliente{" + "id=" + id + ", nombre=" + nombre + ", email=" + email + '}';
+    }
 public Cliente() {
 }
     public Integer getId() {
