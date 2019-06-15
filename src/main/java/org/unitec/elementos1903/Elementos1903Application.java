@@ -20,18 +20,18 @@ public class Elementos1903Application implements CommandLineRunner {
         //repoCliente.save(new Cliente(1, "El BRayan","Elmongo@hotm"));
       // repoCliente.save(new Cliente(3, "Juanito", "Elmongo@hotm"));
       // repoCliente.save(new Cliente(3, "el mongas", "Elmongo@hotm"));
-        repoCliente.save(new Cliente(4, "Juanito", "Elmongo@hotm"));
+       // repoCliente.save(new Cliente(4, "Juanito", "Elmongo@hotm"));
     
     //buscar todosh
    // for (Cliente c: repoCliente.findAll()){
-       for (Cliente c: repoCliente.findByEmail("elchuy@hotm")){
+       //for (Cliente c: repoCliente.findByEmail("elchuy@hotm")){
    
-            System.out.println(c);
+          //  System.out.println(c);
     }
     //buscar por id 
-        System.out.println(repoCliente.findById(2));
+      //  System.out.println(repoCliente.findById(2));
         
         //borramos el primero despues lo vuelven a insertar
        // repoCliente.deleteById(1);
-}
+//}
 }
